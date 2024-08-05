@@ -158,3 +158,15 @@ i[class*='vand-type-'] {
     width: 494.33;
     height: 49.83;
 }
+
+/* Navbar styling */
+
+.host-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 70% 5px 30px;
+    text-decoration: none;
+    color: inherit;
+    
+}
+
