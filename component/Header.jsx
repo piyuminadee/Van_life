@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import Footer from "../pages/Footer"
 
 export default function Header() {
     return (
@@ -10,6 +11,7 @@ export default function Header() {
                 <Link to="/about">About</Link>
                 <Link to="/vans">Vans</Link>
             </nav>
+          
         </header>
     )
 }

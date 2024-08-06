@@ -1,6 +1,7 @@
 import React from "react"
 import { Outlet , Link} from "react-router-dom"
 import '../pages/Vans.css'
+import Footer from "../pages/Footer"
 
 
 export default function HostLayout() {
@@ -11,6 +12,7 @@ export default function HostLayout() {
                 <Link to="/host/income">Income</Link>
                 <Link to="/host/reviews">Reviews</Link>
             </nav>
+          
             <Outlet />
         </>
     )

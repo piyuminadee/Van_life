@@ -11,6 +11,7 @@ import Dashboard from './pages/Host/Dashboard';
 import Reviews from './pages/Host/Reviews';
 import Income from './pages/Host/Income';
 import HostLayout from './component/HostLayout';
+import Footer from './pages/Footer';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="income" element={<Income />} />
         
         </Route>
+
         </Route>
       </Routes>
     </BrowserRouter>
