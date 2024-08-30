@@ -13,6 +13,7 @@ import Income from './pages/Host/Income';
 import HostLayout from './component/HostLayout';
 import Footer from './pages/Footer';
 
+
 function App() {
   return (
     <BrowserRouter>
